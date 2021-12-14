@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+    color: rgb(227, 241, 253);
+};
+h1 {
+    color:rgb(227, 241, 253);
+}
+.chat {
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    background-color: black;
+}
+.cchat {
+    flex: auto;
+}
+.inputs {
+    
+    display: flex;
+}
+.output{
+    background-color: rgb(37, 34, 34);
+    height: 100%; 
+    width: 100%;
+    min-height: 30rem;
+}
+input {
+    max-width: 100rem;
+}
+
+#output p {
+    color: #ffff;
+    padding: 2px;
+    margin: 0 10px;
+}
